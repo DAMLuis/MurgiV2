@@ -76,6 +76,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/telefono"
+            android:autoLink="phone"
             android:textColor="@color/negro"
             android:textSize="20sp"
             android:layout_marginStart="60dp"
@@ -112,6 +113,7 @@
                 android:layout_height="wrap_content"
                 android:textColor="@color/negro"
                 android:text="@string/telefonoJunta"
+                android:autoLink="phone"
                 android:textSize="20sp"
                 android:layout_marginStart="10dp"
                 />
