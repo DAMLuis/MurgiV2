@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Proyecto IES Murgi </string>
+    <string name="app_name">IES Murgi </string>
     <string name="contacto_label">Contacto - Proyecto IES Murgi </string>
     <string name="matriculacion_label">Matriculación - Proyecto IES Murgi </string>
     <string name="cursos_label">Cursos - Proyecto IES Murgi </string>
