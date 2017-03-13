@@ -5,7 +5,7 @@ android {
         release {
             keyAlias 'iesmurgi'
             keyPassword 'iesmurgi'
-            storeFile file('/home/luis/key.jks')
+            storeFile file('/home/usuario/key.jks')
             storePassword 'iesmurgi'
         }
     }

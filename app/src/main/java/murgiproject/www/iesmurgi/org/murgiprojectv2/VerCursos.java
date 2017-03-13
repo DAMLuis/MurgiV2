@@ -35,7 +35,7 @@ public class VerCursos extends AppCompatActivity {
 
         if(pos==2){
             cursos=new ArrayList<>();
-            cursos.add(new Cursos("Mantenimiento de vehículos"," Realizar operaciones básicas de mantenimiento electromecánico y carrocería de vehículos, desmontando y montando elementos",R.drawable.fp_electromecanica));
+            cursos.add(new Cursos("Mantenimiento de vehículos"," Realizar operaciones básicas de mantenimiento electromecánico y carrocería de vehículos, desmontando y montando elementos de carrocería",R.drawable.fp_mecanica));
         }
 
         if(pos==3){
@@ -51,17 +51,9 @@ public class VerCursos extends AppCompatActivity {
             cursos.add(new Cursos("Desarrollo de Aplicaciones Multiplataforma","Desarrollando aplicaciones informáticas para la gestión empresarial y de negocio. Desarrollando aplicaciones de propósito general. Desarrollando aplicaciones en el ámbito del entretenimiento y la informática móvil.",R.drawable.fp_dam));
             cursos.add(new Cursos("Desarrollo de Aplicaciones Web"," Desarrollar, implantar, y mantener aplicaciones web, con independencia del modelo empleado y utilizando tecnologías específicas, garantizando el acceso a los datos de forma segura y cumpliendo los criterios de accesibilidad, usabilidad y calidad exigidas en los estándares establecidos. ", R.drawable.fp_daw));
             cursos.add(new Cursos("Administración y Finanzas", " Este profesional ejerce su actividad tanto en grandes como en medianas y pequeñas empresas, en cualquier sector de actividad, y particularmente en el sector servicios, así como en las administraciones públicas, desempeñando las tareas administrativas en la gestión y el asesoramiento en las áreas laboral, comercial, contable y fiscal de dichas empresas e instituciones, ofreciendo un servicio y atención a los clientes y ciudadanos, realizando trámites administrativos con las administraciones públicas y gestionando el archivo y las comunicaciones de la empresa. " , R.drawable.fp_finanzas));
-            cursos.add(new Cursos ("Instalaciones Electrotécnicas" , "Ejercer mi actividad profesional en el sector de la electricidad y la electrónica público y privado, en empresas privadas del sector o creando mi propia empresa." , R.drawable.fp_instalaciones));
+            cursos.add(new Cursos ("Instalaciones Electrotécnicas" , "Ejercer mi actividad profesional en el sector de la electricidad y la electrónica público y privado, en empresas privadas del sector o creando mi propia empresa." , R.drawable.fp_instalacion));
         }
 
-        if(pos==5){
-            cursos = new ArrayList<>();
-            cursos.add(new Cursos("Ingles","Certificado de Nivel Básico (A2), de Nivel Intermedio (B1), Certificado de Nivel Avanzado (B2), Certificado de Nivel C1, CERTIFICACIONES GRUPOS CAL" , R.drawable.bandera_uk));
-            cursos.add(new Cursos("Frances","Certificado de Nivel Básico (A2), de Nivel Intermedio (B1), Certificado de Nivel Avanzado (B2), Certificado de Nivel C1, CERTIFICACIONES GRUPOS CAL" , R.drawable.bandera_francia));
-            cursos.add(new Cursos("Arabe","Certificado de Nivel Básico (A2), de Nivel Intermedio (B1), Certificado de Nivel Avanzado (B2), CERTIFICACIONES GRUPOS CAL" , R.drawable.bandera_arabia));
-            cursos.add(new Cursos("Aleman","Certificado de Nivel Básico (A2), de Nivel Intermedio (B1), Certificado de Nivel Avanzado (B2), CERTIFICACIONES GRUPOS CAL" , R.drawable.bandera_alemania));
-            cursos.add(new Cursos("Pagina Web EOI", "www.eoielejido.es", R.drawable.web_idiomas));
-        }
 
         adapter = new VerCursosAdapter(this, cursos);
         listView = (ListView) findViewById(R.id.mListView);

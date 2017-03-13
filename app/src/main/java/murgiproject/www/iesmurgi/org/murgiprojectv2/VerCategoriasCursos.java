@@ -19,7 +19,6 @@ public class VerCategoriasCursos extends AppCompatActivity {
         btn_fpBasica = (ImageButton) findViewById(R.id.btn_irFpBasico);
         btn_fpMedio = (ImageButton) findViewById(R.id.btn_irGradoMedio);
         btn_fpSuperior = (ImageButton) findViewById(R.id.btn_irGradoSuperior);
-        btn_eoIdiomas = (ImageButton) findViewById(R.id.btn_irEscuelaIdiomas);
 
 
         btn_bachiller.setOnClickListener(new View.OnClickListener() {
@@ -51,12 +50,7 @@ public class VerCategoriasCursos extends AppCompatActivity {
             }
         });
 
-        btn_eoIdiomas.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(5);
-            }
-        });
+
 
 
     }
